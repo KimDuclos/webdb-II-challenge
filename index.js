@@ -11,7 +11,6 @@ server.use(express.json());
 const zoo = require('./data/routes/zoo');
 const bear = require('./data/routes/bear');
 
-// endpoints here
 
 server.use('/api/zoos', zoo);
 server.use('/api/bears', bear);
